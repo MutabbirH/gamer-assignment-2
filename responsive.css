@@ -1,0 +1,150 @@
+@media screen and (max-width:425px){
+ 
+  .nav-container{
+    padding: 50px;
+    height: 200px;
+    margin: 0 auto;
+  }
+ .nav-container, .nav-items-container, .nav-items{
+  flex-direction: column;
+ }
+
+ .banner-container{
+  flex-direction: column;
+  margin: 0;
+ }
+  .logo-container{
+    width: 80%;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .banner-container{
+    margin: 0;
+    width: 100%;
+  
+    justify-content: center;
+  }
+  .background-svg{
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .svg-content{
+    padding: 50px;
+    justify-content: center;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner-img img{
+    width: 420px;
+    margin-left: 0;
+    padding: 0;
+    align-items: center;
+  
+  }
+  .gamer{
+    display: none;
+  }
+  .online-games-description, .card-containar,.rectangle-section{
+    flex-direction: column;
+  }
+  .card-containar, .rectangle-section{
+    align-items: center;
+  }
+  .rectangle-section{
+    width: 100%;
+  }
+  .ractangle-img, .ractangle-title{
+    width: 100%;
+  }
+  .ractangle-img img{
+    width: 100%;
+  }
+  .rectangle-section h1{
+    text-align: center;
+  }
+  .rectangle-section p{
+    justify-content: center;
+    text-align: center;
+  }
+  .small-img{
+    width: 50%;
+  }
+  .box-img{
+      position: relative;
+      bottom: 100px;
+      right: 20px;
+      max-width: 150.5px;
+    height: 150px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    
+  }
+  .general-section{
+    flex-basis: 100%;
+ justify-content: center;
+   width: 425px; 
+   margin: 0;
+   padding: 0;
+   gap: 0;
+  }
+  .links{
+    display: flex;
+    width: 140px;
+  height: 40px;
+    gap: 10px;
+  }
+  .links a{
+    text-decoration: none;
+    color: #0B0223;
+  font-family: Work Sans;
+  font-size: 0.7rem;
+  font-weight: 600;
+
+  }
+  footer{
+    width: 425px;
+    height: 460px;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 0;
+   padding: 0;
+   gap: 0;
+  }
+  .footer-anchors a{
+    text-decoration: none;
+    color: #FFF;
+  text-align: center;
+  font-size: .7rem;
+  font-weight: 600;
+
+  }
+ 
+  .terms a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+  text-align: center;
+  
+  font-size: 0.5rem;
+  font-weight: 500;
+  padding:10px;
+  }
+  
+  .copyright p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  
+  }
+  .footer-anchors,.icon-links, .terms, .copyright{
+    margin-top: 24px;
+  }
+  
+ 
+ 
+
+}
