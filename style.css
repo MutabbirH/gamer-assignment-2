@@ -3,6 +3,7 @@
 }
 body{
   margin: 0 auto;
+font-family: 'Work Sans';
 }
 
 /* nav section */
@@ -251,7 +252,7 @@ line-height: normal;
 /* card section*/
 
 
-.card-containar{
+.card-container{
   display:flex;
   justify-content: center;
   gap: 24px;
